@@ -10,7 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91267b13-8a03-4ac8-855a-6df7cdd5da6d" name="Default Changelist" comment="安装 react-route-dom" />
+    <list default="true" id="91267b13-8a03-4ac8-855a-6df7cdd5da6d" name="Default Changelist" comment="安装 react-router-dom">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logo.svg" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +43,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -48,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598102484423</updated>
       <workItem from="1598102485639" duration="239000" />
-      <workItem from="1598102726255" duration="945000" />
+      <workItem from="1598102726255" duration="2320000" />
     </task>
     <task id="LOCAL-00001" summary="安装 react-route-dom">
       <created>1598103667111</created>
@@ -57,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598103667111</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="安装 react-router-dom">
+      <created>1598103828582</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598103828582</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,12 +94,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="安装 react-route-dom" />
-    <option name="LAST_COMMIT_MESSAGE" value="安装 react-route-dom" />
+    <MESSAGE value="安装 react-router-dom" />
+    <option name="LAST_COMMIT_MESSAGE" value="安装 react-router-dom" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1705" y="331" key="search.everywhere.popup" timestamp="1598102699947">
+    <state x="1705" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1598104876913">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1705" y="331" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1598102699947" />
+    <state x="1705" y="331" width="670" height="676" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1598104876913" />
   </component>
 </project>
