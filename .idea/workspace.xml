@@ -10,12 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91267b13-8a03-4ac8-855a-6df7cdd5da6d" name="Default Changelist" comment="安装 styled-components">
+    <list default="true" id="91267b13-8a03-4ac8-855a-6df7cdd5da6d" name="Default Changelist" comment="安装 mobx">
       <change afterPath="$PROJECT_DIR$/src/pages/Login.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/pages/Register.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/stores/auth.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/stores/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598102484423</updated>
       <workItem from="1598102485639" duration="239000" />
-      <workItem from="1598102726255" duration="8431000" />
+      <workItem from="1598102726255" duration="11365000" />
     </task>
     <task id="LOCAL-00001" summary="安装 react-route-dom">
       <created>1598103667111</created>
@@ -89,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598108018549</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="安装 mobx">
+      <created>1598111236017</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598111236017</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,20 +119,25 @@
     <MESSAGE value="安装 react-router-dom" />
     <MESSAGE value="简单实现页面导航" />
     <MESSAGE value="安装 styled-components" />
-    <option name="LAST_COMMIT_MESSAGE" value="安装 styled-components" />
+    <MESSAGE value="安装 mobx" />
+    <option name="LAST_COMMIT_MESSAGE" value="安装 mobx" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1778" y="474" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598110734337">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1778" y="474" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1598110734337" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1598113956463">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.2560.1440@0.0.2560.1440" timestamp="1598113956463" />
     <state x="1742" y="477" width="596" height="486" key="find.popup" timestamp="1598110869643">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1742" y="477" width="596" height="486" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1598110869643" />
-    <state x="1705" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1598110346927">
+    <state x="1705" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1598113523239">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1705" y="331" width="670" height="676" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1598110346927" />
+    <state x="1705" y="331" width="670" height="676" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1598113523239" />
   </component>
 </project>
