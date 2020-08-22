@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91267b13-8a03-4ac8-855a-6df7cdd5da6d" name="Default Changelist" comment="yarn add @babel/plugin-proposal-decorators">
+    <list default="true" id="91267b13-8a03-4ac8-855a-6df7cdd5da6d" name="Default Changelist" comment="yarn add mobx-react">
       <change afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/config/getHttpsConfig.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" afterDir="false" />
@@ -24,10 +24,11 @@
       <change afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/scripts/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stores/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598102484423</updated>
       <workItem from="1598102485639" duration="239000" />
-      <workItem from="1598102726255" duration="12379000" />
+      <workItem from="1598102726255" duration="13806000" />
     </task>
     <task id="LOCAL-00001" summary="安装 react-route-dom">
       <created>1598103667111</created>
@@ -115,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598114232790</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="yarn add mobx-react">
+      <created>1598115223771</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598115223771</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +147,8 @@
     <MESSAGE value="安装 styled-components" />
     <MESSAGE value="安装 mobx" />
     <MESSAGE value="yarn add @babel/plugin-proposal-decorators" />
-    <option name="LAST_COMMIT_MESSAGE" value="yarn add @babel/plugin-proposal-decorators" />
+    <MESSAGE value="yarn add mobx-react" />
+    <option name="LAST_COMMIT_MESSAGE" value="yarn add mobx-react" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1778" y="474" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598110734337">
@@ -154,9 +163,9 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1742" y="477" width="596" height="486" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1598110869643" />
-    <state x="1705" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1598114539712">
+    <state x="1705" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1598115962301">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1705" y="331" width="670" height="676" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1598114539712" />
+    <state x="1705" y="331" width="670" height="676" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1598115962301" />
   </component>
 </project>
