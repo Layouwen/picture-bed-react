@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91267b13-8a03-4ac8-855a-6df7cdd5da6d" name="Default Changelist" comment="" />
+    <list default="true" id="91267b13-8a03-4ac8-855a-6df7cdd5da6d" name="Default Changelist" comment="安装 react-route-dom" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,8 +48,16 @@
       <option name="presentableId" value="Default" />
       <updated>1598102484423</updated>
       <workItem from="1598102485639" duration="239000" />
-      <workItem from="1598102726255" duration="904000" />
+      <workItem from="1598102726255" duration="945000" />
     </task>
+    <task id="LOCAL-00001" summary="安装 react-route-dom">
+      <created>1598103667111</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598103667111</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -65,6 +73,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="安装 react-route-dom" />
+    <option name="LAST_COMMIT_MESSAGE" value="安装 react-route-dom" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1705" y="331" key="search.everywhere.popup" timestamp="1598102699947">
