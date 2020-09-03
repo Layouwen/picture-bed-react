@@ -12,10 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="91267b13-8a03-4ac8-855a-6df7cdd5da6d" name="Default Changelist" comment="yarn add mobx-react">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +58,7 @@
       <updated>1598102484423</updated>
       <workItem from="1598102485639" duration="239000" />
       <workItem from="1598102726255" duration="13806000" />
-      <workItem from="1599108885654" duration="3067000" />
+      <workItem from="1599108885654" duration="4214000" />
     </task>
     <task id="LOCAL-00001" summary="安装 react-route-dom">
       <created>1598103667111</created>
@@ -112,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598115223771</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="初步完成登录状态和注销状态的切换">
+      <created>1599119728174</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599119728174</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +142,8 @@
     <MESSAGE value="安装 mobx" />
     <MESSAGE value="yarn add @babel/plugin-proposal-decorators" />
     <MESSAGE value="yarn add mobx-react" />
-    <option name="LAST_COMMIT_MESSAGE" value="yarn add mobx-react" />
+    <MESSAGE value="初步完成登录状态和注销状态的切换" />
+    <option name="LAST_COMMIT_MESSAGE" value="初步完成登录状态和注销状态的切换" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1778" y="474" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598110734337">
@@ -165,6 +170,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.2560.1440@0.0.2560.1440" timestamp="1598113956463" />
+    <state x="829" y="286" key="Vcs.Push.Dialog.v2" timestamp="1599119676582">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="829" y="286" key="Vcs.Push.Dialog.v2/-1920.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1599119676582" />
     <state x="1742" y="477" width="596" height="486" key="find.popup" timestamp="1598110869643">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
