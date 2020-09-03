@@ -1,12 +1,14 @@
-import React from 'react'
-import LogoUrl from './logo.svg'
-import {NavLink} from 'react-router-dom'
-import styled from 'styled-components'
+import React, {useState} from "react"
+import {Button} from "antd"
+import LogoUrl from "./logo.svg"
+import {NavLink} from "react-router-dom"
+import styled from "styled-components"
 
 const Header = styled.header`
   display: flex;
   align-items: center;
   padding: 10px 100px;
+  color: #fff;
   background-color: #02101f;
 `
 const Logo = styled.img`
@@ -25,11 +27,14 @@ const Login = styled.div`
   margin-left: auto;
 `
 
-const Button = styled.button`
-  margin-left: 10px;
+const StyleButton = styled(Button)`
+  margin-left: 10px; 
 `
 
+
 function Component() {
+  const [isLogin, setIsLogin] = useState(false)
+
   return (
     <Header>
       <Logo src={LogoUrl} alt=""/>
@@ -39,12 +44,14 @@ function Component() {
         <StyledLink to="/about" activeClassName="active">关于我</StyledLink>
       </nav>
       <Login>
-        <Button>
-          <StyledLink to="/login">登录</StyledLink>
-        </Button>
-        <Button>
-          <StyledLink to="/register">注册</StyledLink>
-        </Button>
+        {
+          isLogin ? <>
+            梁又文 <StyleButton type="primary" onClick={() => setIsLogin(false)}>注销</StyleButton>
+          </> : <>
+            <StyleButton type="primary" onClick={() => setIsLogin(true)}>登录</StyleButton>
+            <StyleButton type="primary">注册</StyleButton>
+          </>
+        }
       </Login>
     </Header>
   )
