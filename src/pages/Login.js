@@ -43,7 +43,7 @@ const Component = () => {
         onFinishFailed={onFinishFailed}
       >
         <Form.Item
-          label="Username"
+          label="用户名"
           name="username"
           rules={[{required: true, message: "请输入账号!"}]}
         >
@@ -51,8 +51,16 @@ const Component = () => {
         </Form.Item>
 
         <Form.Item
-          label="Password"
+          label="密码"
           name="password"
+          rules={[{required: true, message: "请输入密码！"}]}
+        >
+          <Input.Password/>
+        </Form.Item>
+
+        <Form.Item
+          label="确认密码"
+          name="confirmPassword"
           rules={[{required: true, message: "请输入密码！"}]}
         >
           <Input.Password/>
