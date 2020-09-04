@@ -11,7 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91267b13-8a03-4ac8-855a-6df7cdd5da6d" name="Default Changelist" comment="yarn add mobx-react">
-      <change beforePath="$PROJECT_DIR$/src/pages/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +61,7 @@
       <workItem from="1598102485639" duration="239000" />
       <workItem from="1598102726255" duration="13806000" />
       <workItem from="1599108885654" duration="6636000" />
-      <workItem from="1599204169382" duration="2426000" />
+      <workItem from="1599204169382" duration="4054000" />
     </task>
     <task id="LOCAL-00001" summary="安装 react-route-dom">
       <created>1598103667111</created>
@@ -145,7 +147,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599205969823</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="安装leancloud-storage">
+      <created>1599206649497</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1599206649497</updated>
+    </task>
+    <task id="LOCAL-00014" summary="安装leancloud-storage">
+      <created>1599206685344</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1599206685344</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +191,8 @@
     <MESSAGE value="美化注册页面的样式" />
     <MESSAGE value="添加确认密码" />
     <MESSAGE value="基本完成登录、注册页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="基本完成登录、注册页面" />
+    <MESSAGE value="安装leancloud-storage" />
+    <option name="LAST_COMMIT_MESSAGE" value="安装leancloud-storage" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1778" y="474" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598110734337">
@@ -218,10 +235,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1742" y="477" width="596" height="486" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1598110869643" />
-    <state x="1364" y="256" width="672" height="523" key="search.everywhere.popup" timestamp="1599125314038">
+    <state x="1364" y="256" width="672" height="523" key="search.everywhere.popup" timestamp="1599207147945">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="1364" y="256" width="672" height="523" key="search.everywhere.popup/-1920.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1599125314038" />
+    <state x="1364" y="256" width="672" height="523" key="search.everywhere.popup/-1920.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1599207147945" />
     <state x="1705" y="331" width="670" height="676" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1598115962301" />
   </component>
 </project>
