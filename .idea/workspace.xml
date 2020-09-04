@@ -11,9 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91267b13-8a03-4ac8-855a-6df7cdd5da6d" name="Default Changelist" comment="yarn add mobx-react">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Register.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +59,7 @@
       <workItem from="1598102485639" duration="239000" />
       <workItem from="1598102726255" duration="13806000" />
       <workItem from="1599108885654" duration="6636000" />
-      <workItem from="1599204169382" duration="1710000" />
+      <workItem from="1599204169382" duration="2426000" />
     </task>
     <task id="LOCAL-00001" summary="安装 react-route-dom">
       <created>1598103667111</created>
@@ -140,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599204263806</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="基本完成登录、注册页面">
+      <created>1599205969823</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1599205969823</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +174,8 @@
     <MESSAGE value="初步完成登录状态和注销状态的切换" />
     <MESSAGE value="美化注册页面的样式" />
     <MESSAGE value="添加确认密码" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加确认密码" />
+    <MESSAGE value="基本完成登录、注册页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="基本完成登录、注册页面" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1778" y="474" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598110734337">
