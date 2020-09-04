@@ -11,8 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91267b13-8a03-4ac8-855a-6df7cdd5da6d" name="Default Changelist" comment="yarn add mobx-react">
+      <change afterPath="$PROJECT_DIR$/src/stores/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +47,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="ts.external.directory.path" value="D:\Program\WebStorm 2020.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -60,7 +67,7 @@
       <workItem from="1598102485639" duration="239000" />
       <workItem from="1598102726255" duration="13806000" />
       <workItem from="1599108885654" duration="6636000" />
-      <workItem from="1599204169382" duration="6088000" />
+      <workItem from="1599204169382" duration="8321000" />
     </task>
     <task id="LOCAL-00001" summary="安装 react-route-dom">
       <created>1598103667111</created>
@@ -174,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599209759531</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="完成登录功能">
+      <created>1599210339630</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1599210339630</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +221,8 @@
     <MESSAGE value="安装leancloud-storage" />
     <MESSAGE value="添加登录、注册、注销、获取当前用户信息API" />
     <MESSAGE value="完成注册功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成注册功能" />
+    <MESSAGE value="完成登录功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成登录功能" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1778" y="474" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598110734337">
@@ -250,10 +265,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1742" y="477" width="596" height="486" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1598110869643" />
-    <state x="1364" y="256" width="672" height="523" key="search.everywhere.popup" timestamp="1599207147945">
+    <state x="764" y="255" width="672" height="523" key="search.everywhere.popup" timestamp="1599212469457">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="1364" y="256" width="672" height="523" key="search.everywhere.popup/-1920.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1599207147945" />
+    <state x="764" y="255" width="672" height="523" key="search.everywhere.popup/-1920.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1599212469457" />
     <state x="1705" y="331" width="670" height="676" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1598115962301" />
   </component>
 </project>
