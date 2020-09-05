@@ -11,8 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91267b13-8a03-4ac8-855a-6df7cdd5da6d" name="Default Changelist" comment="yarn add mobx-react">
+      <change afterPath="$PROJECT_DIR$/src/components/Tips.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Uploader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Uploader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +70,7 @@
       <workItem from="1599249488337" duration="213000" />
       <workItem from="1599249728977" duration="9000" />
       <workItem from="1599282926110" duration="871000" />
-      <workItem from="1599284156135" duration="897000" />
+      <workItem from="1599284156135" duration="3182000" />
     </task>
     <task id="LOCAL-00001" summary="安装 react-route-dom">
       <created>1598103667111</created>
@@ -196,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599212666175</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="完成图片上传的功能，显示对应的url地址">
+      <created>1599285296278</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1599285296278</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,13 +240,15 @@
     <MESSAGE value="完成注册功能" />
     <MESSAGE value="完成登录功能" />
     <MESSAGE value="完善用户登录注册等逻辑，注销账号仍有bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善用户登录注册等逻辑，注销账号仍有bug" />
+    <MESSAGE value="完成图片上传的功能，显示对应的url地址" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成图片上传的功能，显示对应的url地址" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1104" y="494" key="#Plugins" timestamp="1599249715351">
-      <screen x="0" y="0" width="3008" height="1692" />
+    <state x="2784" y="494" key="#Plugins" timestamp="1599288448473">
+      <screen x="1680" y="0" width="3008" height="1692" />
     </state>
     <state x="1104" y="494" key="#Plugins/0.0.3008.1692@0.0.3008.1692" timestamp="1599249715351" />
+    <state x="2784" y="494" key="#Plugins/1680.0.3008.1692/0.0.1680.1050@1680.0.3008.1692" timestamp="1599288448473" />
     <state x="1778" y="474" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598110734337">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -280,12 +291,12 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1742" y="477" width="596" height="486" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1598110869643" />
-    <state x="2802" y="388" width="987" height="796" key="search.everywhere.popup" timestamp="1599283437743">
+    <state x="2802" y="388" width="987" height="796" key="search.everywhere.popup" timestamp="1599288541521">
       <screen x="1680" y="0" width="3008" height="1692" />
     </state>
     <state x="764" y="255" width="672" height="523" key="search.everywhere.popup/-1920.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1599215287722" />
     <state x="1705" y="331" width="670" height="676" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1598115962301" />
     <state x="1122" y="388" width="987" height="796" key="search.everywhere.popup/0.0.3008.1692@0.0.3008.1692" timestamp="1599249695407" />
-    <state x="2802" y="388" width="987" height="796" key="search.everywhere.popup/1680.0.3008.1692/0.0.1680.1050@1680.0.3008.1692" timestamp="1599283437743" />
+    <state x="2802" y="388" width="987" height="796" key="search.everywhere.popup/1680.0.3008.1692/0.0.1680.1050@1680.0.3008.1692" timestamp="1599288541521" />
   </component>
 </project>
