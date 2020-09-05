@@ -11,7 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91267b13-8a03-4ac8-855a-6df7cdd5da6d" name="Default Changelist" comment="yarn add mobx-react">
-      <change beforePath="$PROJECT_DIR$/src/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stores/history.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599297732339</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="完成find函数的编写">
+      <created>1599298508034</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1599298508034</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +271,8 @@
     <MESSAGE value="完成登录后才可以上传图片，并添加警告提示" />
     <MESSAGE value="完成图片尺寸的制定" />
     <MESSAGE value="完成上传限制和加载提示，修复了无法上传的bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成上传限制和加载提示，修复了无法上传的bug" />
+    <MESSAGE value="完成find函数的编写" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成find函数的编写" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2784" y="494" key="#Plugins" timestamp="1599288448473">
