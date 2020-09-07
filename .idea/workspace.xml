@@ -11,13 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91267b13-8a03-4ac8-855a-6df7cdd5da6d" name="Default Changelist" comment="yarn add mobx-react">
-      <change afterPath="$PROJECT_DIR$/src/components/List.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/History.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/History.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/List.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/Image.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/Image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stores/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/history.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stores/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +75,9 @@
       <workItem from="1599249728977" duration="9000" />
       <workItem from="1599282926110" duration="871000" />
       <workItem from="1599284156135" duration="4771000" />
+      <workItem from="1599308859559" duration="5734000" />
+      <workItem from="1599380654204" duration="624000" />
+      <workItem from="1599415474854" duration="625000" />
     </task>
     <task id="LOCAL-00001" summary="安装 react-route-dom">
       <created>1598103667111</created>
@@ -244,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599301656521</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="完成列表数据的显示">
+      <created>1599305700822</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1599305700822</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +295,8 @@
     <MESSAGE value="完成上传限制和加载提示，修复了无法上传的bug" />
     <MESSAGE value="完成find函数的编写" />
     <MESSAGE value="完成HistoryStore的书写" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成HistoryStore的书写" />
+    <MESSAGE value="完成列表数据的显示" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成列表数据的显示" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2784" y="494" key="#Plugins" timestamp="1599288448473">
@@ -335,12 +346,12 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1742" y="477" width="596" height="486" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1598110869643" />
-    <state x="2802" y="388" width="987" height="796" key="search.everywhere.popup" timestamp="1599301799920">
-      <screen x="1680" y="0" width="3008" height="1692" />
+    <state x="1122" y="388" width="987" height="796" key="search.everywhere.popup" timestamp="1599381127613">
+      <screen x="0" y="0" width="3008" height="1692" />
     </state>
     <state x="764" y="255" width="672" height="523" key="search.everywhere.popup/-1920.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1599215287722" />
     <state x="1705" y="331" width="670" height="676" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1598115962301" />
-    <state x="1122" y="388" width="987" height="796" key="search.everywhere.popup/0.0.3008.1692@0.0.3008.1692" timestamp="1599249695407" />
+    <state x="1122" y="388" width="987" height="796" key="search.everywhere.popup/0.0.3008.1692@0.0.3008.1692" timestamp="1599381127613" />
     <state x="2802" y="388" width="987" height="796" key="search.everywhere.popup/1680.0.3008.1692/0.0.1680.1050@1680.0.3008.1692" timestamp="1599301799920" />
   </component>
 </project>

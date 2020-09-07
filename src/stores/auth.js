@@ -1,6 +1,8 @@
 import {observable, action} from "mobx"
 import {Auth} from "../models"
 import UserStore from "./user"
+import HistoryStore from "./history"
+import ImageStore from "./Image"
 import {message} from "antd"
 
 class AuthStore {
@@ -37,20 +39,22 @@ class AuthStore {
   @action register() {
     const {username, password} = this.values
     return new Promise((resolve, reject) => {
-        Auth.register(username, password).then(user => {
-          UserStore.pullUser()
-          resolve(user)
-        }).catch(err => {
-          UserStore.resetUser()
-          message.error("注册失败")
-          reject(err)
-        })
-      }
-    )
+      Auth.register(username, password).then(user => {
+        UserStore.pullUser()
+        resolve(user)
+      }).catch(err => {
+        UserStore.resetUser()
+        message.error("注册失败")
+        reject(err)
+      })
+    })
   }
 
   @action logout() {
     Auth.logout()
+    UserStore.resetUser()
+    HistoryStore.reset()
+    ImageStore.reset()
   }
 
 }
