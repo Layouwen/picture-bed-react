@@ -4,9 +4,6 @@ import {Switch, Route} from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Loading from './components/Loading'
-// import Home from './pages/Home'
-// import History from './pages/History'
-// import About from './pages/About'
 
 const Home = lazy(() => import('./pages/Home'))
 const History = lazy(() => import('./pages/History'))
